@@ -11,7 +11,6 @@ import org.hibernate.annotations.TypeDef;
 
 import javax.persistence.*;
 
-
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
