@@ -28,6 +28,6 @@ public class Table {
 
     @Type(type = "jsonb")
     @Column(name = "obj", columnDefinition = "jsonb")
-    private Json jsonEntity;
+    private CustomJson customJsonEntity;
 
 }

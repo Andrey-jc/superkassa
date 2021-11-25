@@ -1,4 +1,4 @@
-package com.example.demo.DTO;
+package com.example.demo.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,8 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CountForm {
+public class CustomJson {
 
-    private Integer id;
-    private int add;
+    private int current;
 }

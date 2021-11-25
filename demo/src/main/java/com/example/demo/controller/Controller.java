@@ -1,14 +1,13 @@
-package com.example.demo.Controller;
+package com.example.demo.controller;
 
-import com.example.demo.DTO.CountForm;
-import com.example.demo.DTO.TableDto;
+import com.example.demo.dto.CountForm;
+import com.example.demo.dto.TableDto;
 import com.example.demo.services.TableServices;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api")
 @RequiredArgsConstructor
 public class Controller {
 

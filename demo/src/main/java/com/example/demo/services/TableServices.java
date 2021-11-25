@@ -1,7 +1,7 @@
 package com.example.demo.services;
 
-import com.example.demo.DTO.CountForm;
-import com.example.demo.DTO.TableDto;
+import com.example.demo.dto.CountForm;
+import com.example.demo.dto.TableDto;
 
 public interface TableServices {
     TableDto addCounter(CountForm count);
