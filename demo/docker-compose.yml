@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  postgres:
+    container_name: super
+    image: postgres:13.3
+    environment:
+      POSTGRES_DB: "superKassa"
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    ports:
+      - "5432:5432"
